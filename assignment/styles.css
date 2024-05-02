@@ -1,0 +1,38 @@
+body {
+    background-image: url('https://img.freepik.com/free-photo/new-year-composition-with-clock-glasses_23-2147724150.jpg?size=626&ext=jpg&ga=GA1.1.299587815.1714465656&semt=ais');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    color: #000; /* Setting text color to black */
+    text-align: center;
+    padding-top: 50px;
+}
+
+.clock-heading h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.clock-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.time-display, .date-display {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.time-box, .date-box {
+    background-color: #000;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.time-display span, .date-display span {
+    color: #020000;
+    padding: 0 5px;
+}
